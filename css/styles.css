@@ -21,12 +21,7 @@ html {
 
 body {
   font-family: 'Overpass', sans-serif;
-  background: radial-gradient(
-    98.96% 98.96% at 50% 0%,
-    #232a34 0%,
-    #181e27 100%
-  );
-  background-repeat: no-repeat;
+  background-color: var(--dark-blue);
   height: 100vh;
   display: grid;
   align-content: center;
@@ -35,7 +30,11 @@ body {
 
 .card {
   width: 41.2rem;
-  background-color: var(--dark-blue);
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
   padding: 3.5rem;
   border-radius: 30px;
   position: relative;
@@ -126,7 +125,11 @@ body {
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: var(--dark-blue);
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
 }
 
 .illustration {
